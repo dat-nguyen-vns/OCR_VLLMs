@@ -56,3 +56,4 @@ if __name__ == "__main__":
     time_inference = end_time - start_time
     with open(f"PQ7_predict/{model_name.replace('.', '_')}/ocr_infer_time.txt", "w", encoding="utf-8") as f:
         f.write(f"Inference time: {time_inference:.2f} seconds\n")
+        
